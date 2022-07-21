@@ -55,14 +55,14 @@ function updateFilters() {
   
     // 8. Set the filtered data to the tableData.
     let filteredData = tableData;
-  
+    
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
     // for (var key=0; key<filters.length; key++) {
     //   if(key) {
     //     filteredData = filteredData.filter(row => row[key] === value);
     //   };
-
+      
     // }
     Object.entries(filters).forEach(
       ([key, value]) => {
